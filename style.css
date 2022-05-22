@@ -1,0 +1,47 @@
+.main {
+    width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1.5px solid darkcyan;
+    margin-top: 20px;
+    border-radius:4px;
+}
+h1 {
+    text-align: center;
+    background-color: white;
+    padding: 30px 0px;
+    margin-top: 0px;
+    color: darkcyan;
+    border-radius: 4px;
+}
+ul {
+    list-style: none;
+    font-size: 20px;
+    color: darkcyan;
+    margin-left: -40px;
+    margin-bottom: 0px;
+}
+li {
+    border-top: 1px solid cadetblue;
+    background-color: white;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+li span{
+    cursor:pointer;
+    position:relative;
+    float:right;
+    margin-right:10px;
+}
+.add{
+    position:relative;
+    padding-bottom:0px;
+    height:30px;
+}
+.add-text{
+    width:80%;
+    height:30px;
+}
+.add button{
+    height:35px;
+}

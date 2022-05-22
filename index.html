@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Angular page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="main" ng-app="myList" ng-controller="myListController">
+        <h1>Список</h1>
+        <div class="add">
+            <input ng-model="newItem" placeholder=" Добавить позицию" class="add-text" />
+            <button ng-click="pushItem()">Добавить</button>
+        </div>
+        <ul>
+            <li ng-repeat="i in items">
+                {{i}}
+                <span ng-click="deleteItem($index)">x</span>
+            </li>
+        </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+    <script src="script.ts"></script>
+</body>
+</html>
